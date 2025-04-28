@@ -27,7 +27,8 @@ main {
   width: calc(100% - 240px); max-width: 680px; margin: 100px auto;}
 
 p {font-size: 18px; line-height: 28px;}
-main h2 {font-size: 2em; font-weight: 600; text-align: center; padding-top: 5%;}
+main h2 {font-size: 2em; font-weight: 600; text-align: center; padding-top: 5%; padding-bottom: 3%;
+  background-image: linear-gradient(to right, transparent, rgb(71, 187, 255), transparent); }
 main h3 {font-size: 1.2em; font-weight: 600; text-align: center;}
 main h4 {font-size: 1.2em; font-weight: 500; text-align: center; margin: 10% auto 0;}
 
@@ -134,6 +135,15 @@ section {
 }
 section .text-wrapper .my-img {width: 130px; margin: auto;}
 section .text-wrapper .my-img img {width: 100%; margin: auto;}
+
+
+@media screen and (max-width: 768px) {
+  #menuToggle {left: 10px;}
+  main {margin: auto; width: 96%; }
+
+
+
+
 
 
 @media screen and (max-width: 768px) {
